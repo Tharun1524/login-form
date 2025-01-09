@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="login.js"></script>
+</head>
+<body>
+       <div class="container">
+        <form>
+          <i class="fa fa-telegram" style="font-size:36px"></i>
+
+          <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name">
+            <span id="name-error">name is required</span>
+          </div>
+
+          <div class="input-group">
+            <label>Phone No.</label>
+            <input type="tel" placeholder="123 456 7890">
+            <span id="phone-error">phone is required</span>
+          </div>
+
+          <div class="input-group">
+            <label>Email Id</label>
+            <input type="email" placeholder="Enter Email">
+            <span id="email-error">email is required</span>
+          </div>
+
+          <div class="input-group">
+            <label>Your Message</label>
+           <textarea rows="5" placeholder="Enter your message"></textarea>
+           <span id="message-error">message is required</span>
+          </div>
+
+           <button>Submit</button>
+           <span id="submit-error">please is required</span>
+           
+        </form>
+       </div>  
+</body>
+</html>
